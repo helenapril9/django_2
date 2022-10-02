@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul style="color: blue; font-size: 20px">
+    <h>Рецепт пасты</h>
+    {% for key, value in pasta.items %}
+    <li>{{key}}: {{value}} </li>
+    {% endfor %}
+</ul>
+</body>
+</html>
